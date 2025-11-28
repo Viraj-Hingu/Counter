@@ -12,11 +12,11 @@ body {
 
 @font-face {
   font-family: counter-text;
-  src: url("/project/super-adorable-font/SuperAdorable-MAvyp.ttf");
+  src: url("/Counter/super-adorable-font/SuperAdorable-MAvyp.ttf");
 }
 @font-face {
   font-family: btn-text;
-  src: url("/project/morinor-lenteron-font/MorinorLenteron-BLVM5.otf");
+  src: url("/Counter/morinor-lenteron-font/MorinorLenteron-BLVM5.otf");
 }
 main {
   width: 100%;
@@ -43,7 +43,7 @@ main .text-button .btns {
   gap: 1rem;
 }
 main .text-button button {
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: none;
   border: 2px solid;
   text-align: center;
