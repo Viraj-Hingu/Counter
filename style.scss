@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+@font-face {
+    font-family: counter-text;
+    src: url("/project/super-adorable-font/SuperAdorable-MAvyp.ttf");
+}
+
+@font-face {
+    font-family: btn-text;
+    src: url("/project/morinor-lenteron-font/MorinorLenteron-BLVM5.otf");
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 109, 60);
+
+    .text-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-size: 10rem;
+            font-family: counter-text;
+        }
+
+        .btns {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+        }
+
+        button {
+            font-size: 1.5rem;
+            border: none;
+            border: 2px solid;
+            text-align: center;
+            padding: 0.5rem;
+            width: 6rem;
+            font-family: btn-text;
+            text-align: center;
+            border: none;
+            border-radius: 7px;
+        }
+
+        .Increase {
+            background-color: rgb(127, 175, 127);
+        }
+
+        .Decrease {
+            background-color: rgb(179, 117, 117);
+        }
+
+        .Reset {
+            background-color: rgb(175, 175, 175);
+        }
+    }
+}
