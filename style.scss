@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html,
@@ -13,12 +14,12 @@ body {
 
 @font-face {
     font-family: counter-text;
-    src: url("/Counter/font/super-adorable-font/SuperAdorable-MAvyp.ttf");
+    src: url("SuperAdorable-MAvyp.ttf");
 }
 
 @font-face {
     font-family: btn-text;
-    src: url("/Counter/font/morinor-lenteron-font/MorinorLenteron-BLVM5.otf");
+    src: url("MorinorLenteron-BLVM5.otf");
 }
 
 main {
@@ -63,14 +64,17 @@ main {
 
         .Increase {
             background-color: rgb(127, 175, 127);
+            font-weight: 800;
         }
 
         .Decrease {
             background-color: rgb(179, 117, 117);
+            font-weight: 800;
         }
 
         .Reset {
             background-color: rgb(175, 175, 175);
+            font-weight: 800;
         }
     }
 }
